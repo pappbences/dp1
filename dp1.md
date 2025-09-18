@@ -51,6 +51,10 @@ Start-Transcript -Path .\log02.txt -Append
 
 ---
 
+
+
+
+
 ## 🔹 3. blokk – Markdown feladatok elkészítése
 
 A `dp1` mappába készítsd el a következő fájlokat:
@@ -60,18 +64,18 @@ Segítség: [Markdown Guide](https://www.markdownguide.org/)
 
 1. **`cv.md`**
 
-   * H1 címsor: „Önéletrajz”
-   * Rövid bemutatkozás félkövér és dőlt szöveggel
-   * Számozott lista a tanulmányaidról
-   * Számozatlan lista a hobbijaidról
+   # H1 címsor: „Önéletrajz”
+   
 
 2. **`projekt.md`**
 
-   * H1 címsor: „Projektek”
-   * Egy idézet blokk a kedvenc mottódról
-   * Egy kódrészlet (pl. `console.log("Hello Projekt!")`)
+   # H1 címsor: „Projektek”
+   > nem vagyok buzi
+   ```Javasricpt
+   console.log("szija")
+   
    * Egy link egy általad használt weboldalra
-
+   ```
 3. **`konyvek.md`**
 
    * H1 címsor: „Kedvenc könyveim”
